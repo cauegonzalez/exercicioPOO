@@ -1,4 +1,6 @@
 # exercicioPHPOO
+# projeto1
+
 Exercícios realizados no curso de PHP OO da Code.Education
 
 Cadastro de clientes
@@ -12,3 +14,12 @@ Cadastro de clientes
 - Nessa listagem você também deverá ter a opção de ordenar os clientes pelo seu índice de forma ascendente e descendente.
 
 Não se esqueça de caprichar na interface utilizando o twitter bootstrap.
+
+---
+# projeto2
+
+Agora que você já tem seu cadastro de cliente, você deverá também aceitar clientes Pessoa Jurídica em sua listagem.
+Não se esqueça de trabalhar com os modificadores de acesso e os getters e setters.
+No momento da listagem dos clientes, você deve indicar em uma das colunas se o cliente é pessoa física ou jurídica.
+Ambos os tipos devem implementar uma interface onde seja possível classificar o grau de importância do cliente para a empresa (ex: cliente 1,2,3,5 estrelas).
+Você também terá a opção de criar clientes que utilizarão endereço específico de cobrança, nesse caso, crie uma interface para que esses tipos de clientes possam implementar.
