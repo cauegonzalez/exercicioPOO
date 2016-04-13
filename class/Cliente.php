@@ -9,9 +9,8 @@
 class Cliente
 {
     public $nome;
-    public $cpf;
     public $endereco;
-    public $dataNascimento;
+    public $classificacao;
 
     /**
      *
@@ -36,25 +35,6 @@ class Cliente
      *
      * @return string
      */
-    public function getCpf()
-    {
-        return $this->cpf;
-    }
-
-    /**
-     *
-     * @param string $cpf
-     */
-    public function setCpf($cpf)
-    {
-        $this->cpf = $cpf;
-        return $this;
-    }
-
-    /**
-     *
-     * @return string
-     */
     public function getEndereco()
     {
         return $this->endereco;
@@ -72,21 +52,12 @@ class Cliente
 
     /**
      *
-     * @return date
+     * @return integer
      */
-    public function getDataNascimento()
+    public function getClassificacao()
     {
-        return $this->dataNascimento;
+        return $this->classificacao;
     }
 
-    /**
-     *
-     * @param date $dataNascimento
-     */
-    public function setDataNascimento($dataNascimento)
-    {
-        $this->dataNascimento = $dataNascimento;
-        return $this;
-    }
 
 }
