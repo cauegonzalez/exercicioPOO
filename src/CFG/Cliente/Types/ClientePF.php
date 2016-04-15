@@ -1,7 +1,11 @@
 <?php
-include_once "/class/ClienteInterface.php";
 
-class ClientePF extends \Cliente implements \ClienteInterface
+namespace CFG\Cliente\Types;
+
+use CFG\Cliente\ClienteInterface;
+use CFG\Cliente\Cliente;
+
+class ClientePF extends Cliente implements ClienteInterface
 {
     public $cpf;
     public $dataNascimento;

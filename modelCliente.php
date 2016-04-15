@@ -1,8 +1,7 @@
 <?php
 
-include_once "class/Cliente.php";
-include_once "class/ClientePF.php";
-include_once "class/ClientePJ.php";
+use CFG\Cliente\Types\ClientePF;
+use CFG\Cliente\Types\ClientePJ;
 
 $arrayClientes = [];
 

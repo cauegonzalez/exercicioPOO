@@ -1,12 +1,13 @@
 <?php
 
+namespace CFG\Cliente;
 /**
  * Classe criada durante o curso POO da code.education
  * 03/04/2016
  *
  * @author cauegonzalez
  */
-class Cliente
+abstract class Cliente
 {
     public $nome;
     public $endereco;

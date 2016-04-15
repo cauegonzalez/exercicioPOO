@@ -1,8 +1,12 @@
 <?php
-include_once "/class/ClienteInterface.php";
-include_once "/class/ClientePJInterface.php";
 
-class ClientePJ extends \Cliente implements \ClienteInterface, \ClientePJInterface
+namespace CFG\Cliente\Types;
+
+use CFG\Cliente\ClienteInterface;
+use CFG\Cliente\ClientePJInterface;
+use CFG\Cliente\Cliente;
+
+class ClientePJ extends Cliente implements ClienteInterface, ClientePJInterface
 {
     public $cnpj;
     public $dataFundacao;

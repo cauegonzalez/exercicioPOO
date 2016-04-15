@@ -1,8 +1,9 @@
 <?php
 
+namespace CFG\Cliente\ClientePJInterface;
 /**
  *
- * @author mlcgo_000
+ * @author cauegonzalez
  *
  */
 interface ClientePJInterface
