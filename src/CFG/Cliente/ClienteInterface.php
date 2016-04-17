@@ -1,6 +1,6 @@
 <?php
 
-namespace CFG\Cliente\ClienteInterface;
+namespace CFG\Cliente;
 /**
  *
  * @author cauegonzalez

@@ -1,6 +1,6 @@
 <?php
 
-namespace CFG\Cliente\ClientePJInterface;
+namespace CFG\Cliente;
 /**
  *
  * @author cauegonzalez

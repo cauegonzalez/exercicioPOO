@@ -5,6 +5,9 @@
 //     set_include_path($_SERVER['DOCUMENT_ROOT']."/".APPLICATION_NAME.CLASS_DIR);
     set_include_path(get_include_path().PATH_SEPARATOR.CLASS_DIR);
     spl_autoload_register();
+
+    use CFG\Cliente\Types\ClientePF;
+    use CFG\Cliente\Types\ClientePJ;
 ?>
 <html>
     <head>
